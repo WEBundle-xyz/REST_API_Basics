@@ -6,4 +6,4 @@ const app = express();
 
 app.use('/feed', feedRoutes);
 
-app.listen();
+app.listen(8080);
